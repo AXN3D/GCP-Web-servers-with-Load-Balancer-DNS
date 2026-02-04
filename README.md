@@ -21,7 +21,6 @@ E-commerce companies like Amazon use this setup to handle millions of requests d
 1. Configure Network and Firewalls: For the purpose of this lab we will choose all automatic setting for HA.
 2. Configure multi region MIGs with autoscaling and health checks <img width="1170" height="536" alt="Instances scaling automatically" src="https://github.com/user-attachments/assets/f35fd5df-be32-4d31-b309-19b0e1e95c14" />
 3. Set up Load Balancing and certificates(Certificates are mandatory if HTPPS load balancer type is being used. I could not successfuly configure it because of some issues with Cloud DNS so I used HTTP as this is just a lab. In the case of production, HTTPS will always be the choice. Once i figure out the issue i will update my lab.)
-<img width="1119" height="678" alt="Load Balancing" src="https://github.com/user-attachments/assets/1943f281-60f6-429b-8b74-2a1ed5680e15" />
 4. For HTTPS, configure DNS and A record.
 5. Perform load testing and observe behaviour while MIGs scale up and down.
 
